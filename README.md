@@ -12,6 +12,8 @@
 
 *A Home Page where the list of restaurants will be displayed for the user to select along with add to favorites button in the form of a heart.
 
+*In the Home page,the restaurants can be sorted based on their price(low to High&High to Low) and based on thier rating.
+
 *A Menu page where the list of menu items of the restaurant will be displayed.
 
 *A Cart Page where the items ordered by the user will be displayed.
