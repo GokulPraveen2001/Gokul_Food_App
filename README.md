@@ -46,7 +46,7 @@
 
 ### Home,Menu Items and Menu Drawer:
 
-<img src="App Images/Home.jpg" width="295"> <img src="App Images/Menu Items.jpg" width="295"> <img src="App Images/Menu Drawer.jpg" width="295">
+<img src="App Images/Home.jpg" width="275"> <img src="App Images/Menu Items.jpg" width="275"> <img src="App Images/Menu Drawer.jpg" width="275">
 
 ### User Profile,Favorites and FAQ Page:
 
@@ -54,7 +54,7 @@
 
 ### Cart,Order Confirmation and Order History Page:
 
-<img src="App Images/Cart.jpg" width="300"> <img src="App Images/Order Confirmation.jpg" width="300"> <img src="App Images/Order History.jpg" width="300">
+<img src="App Images/Cart.jpg" width="275"> <img src="App Images/Order Confirmation.jpg" width="275"> <img src="App Images/Order History.jpg" width="275">
 
 
 
