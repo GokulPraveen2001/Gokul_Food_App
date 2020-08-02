@@ -2,7 +2,7 @@
 
 ## This Food App was created by me as a part of my internship project at Internshala.I have used Kotlin for backend app development and Xml for frontend app development.
 
-## Here the app retrieves its information from a web database for the list of restaurants and the menu item.
+## Here the app retrieves its information from a web database for the list of restaurants and the menu items.
 
 ## The favorite restaurants are stored in a local Room Database.
 
