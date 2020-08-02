@@ -38,7 +38,7 @@
 
 <img src="App Images/Login.jpg" width="400"> <img src="App Images/Registration.jpg" width="400">
 
-<img src="App Images/Forgot Password.jpg" width="400"> <img src="App Images/Reset Password.jpg"width="400">
+<img src="App Images/Forgot Password.jpg" width="400"> <img src="App Images/Reset Password.jpg" width="400">
 
 <img src="App Images/Home.jpg" width="400"> <img src="App Images/Menu Items.jpg" width="400"> <img src="App Images/Menu Drawer.jpg" width="400">
 
