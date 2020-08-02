@@ -34,7 +34,7 @@
 
 ### App Logo:
 
-<img src="App Images/App Logo.jpg"> <img src="App Images/Login.jpg width=100">
+<img src="App Images/App Logo.jpg"> <img src="App Images/Login.jpg" width=100">
 
 
 
