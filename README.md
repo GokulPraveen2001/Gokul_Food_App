@@ -36,15 +36,15 @@
 
 <img src="App Images/App Logo.jpg">
 
-<img src="App Images/Login.jpg" width="400"> <img src="App Images/Registration.jpg" width="400">
+<img src="App Images/Login.jpg" width="400">  <img src="App Images/Registration.jpg" width="400">
 
 <img src="App Images/Forgot Password.jpg" width="400"> <img src="App Images/Reset Password.jpg" width="400">
 
-<img src="App Images/Home.jpg" width="400"> <img src="App Images/Menu Items.jpg" width="400"> <img src="App Images/Menu Drawer.jpg" width="400">
+<img src="App Images/Home.jpg" width="300"> <img src="App Images/Menu Items.jpg" width="300"> <img src="App Images/Menu Drawer.jpg" width="300">
 
-<img src="App Images/User Profile.jpg" width="400"> <img src="App Images/Favorites.jpg" width="400"> <img src="App Images/FAQ.jpg" width="400">
+<img src="App Images/User Profile.jpg" width="300"> <img src="App Images/Favorites.jpg" width="300"> <img src="App Images/FAQ.jpg" width="300">
 
-<img src="App Images/Cart.jpg" width="400"> <img src="App Images/Order Confirmation.jpg" width="400"> <img src="App Images/Order History.jpg" width="400">
+<img src="App Images/Cart.jpg" width="300"> <img src="App Images/Order Confirmation.jpg" width="300"> <img src="App Images/Order History.jpg" width="300">
 
 
 
