@@ -31,3 +31,4 @@
 *An Order History Page where the order history of the user will be displayed.
 
 *A FAQ page where the list of frequent questions asked by the customers will be displayed.
+
