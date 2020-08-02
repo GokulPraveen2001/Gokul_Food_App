@@ -46,11 +46,11 @@
 
 ### Home,Menu Items and Menu Drawer:
 
-<img src="App Images/Home.jpg" width="300"> <img src="App Images/Menu Items.jpg" width="300"> <img src="App Images/Menu Drawer.jpg" width="300">
+<img src="App Images/Home.jpg" width="295"> <img src="App Images/Menu Items.jpg" width="295"> <img src="App Images/Menu Drawer.jpg" width="295">
 
 ### User Profile,Favorites and FAQ Page:
 
-<img src="App Images/User Profile.jpg" width="300"> <img src="App Images/Favorites.jpg" width="300"> <img src="App Images/FAQ.jpg" width="300">
+<img src="App Images/User Profile.jpg" width="295"> <img src="App Images/Favorites.jpg" width="295"> <img src="App Images/FAQ.jpg" width="295">
 
 ### Cart,Order Confirmation and Order History Page:
 
