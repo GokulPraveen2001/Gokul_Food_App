@@ -2,7 +2,7 @@
 
 ## This Food App was created by me as a part of my internship project at internshala.I have used Kotlin for backend app development and Xml for frontend app development.
 
-###The features of this app are:
+### The features of this app are:
 
 *A Login Page for User Login.
 
