@@ -46,7 +46,7 @@
 
 ### Home,Menu Items and Menu Drawer:
 
-<img src="App Images/Home.jpg" width="275"> <img src="App Images/Menu Items.jpg" width="275"> <img src="App Images/Menu Drawer.jpg" width="275">
+<img src="App Images/Home.jpg" width="275"> <img src="App Images/Proceed to Cart.jpg" width="275"> <img src="App Images/Menu Drawer.jpg" width="275">
 
 ### User Profile,Favorites and FAQ Page:
 
