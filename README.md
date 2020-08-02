@@ -50,7 +50,7 @@
 
 ### User Profile,Favorites and FAQ Page:
 
-<img src="App Images/User Profile.jpg" width="295"> <img src="App Images/Favorites.jpg" width="295"> <img src="App Images/FAQ.jpg" width="295">
+<img src="App Images/User Profile.jpg" width="275"> <img src="App Images/Favorites.jpg" width="275"> <img src="App Images/FAQ.jpg" width="275">
 
 ### Cart,Order Confirmation and Order History Page:
 
