@@ -33,4 +33,4 @@
 *A FAQ page where the list of frequent questions asked by the customers will be displayed.
 
 
-<img src="App Logo.jpg" >
+
