@@ -33,6 +33,7 @@
 *A FAQ page where the list of frequent questions asked by the customers will be displayed.
 
 ###App Logo:
-< img src="App Images/App Logo.jpg" >
+
+<img src="App Images/App Logo.jpg">
 
 
