@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="250dp"
+    android:background="@color/Black">
+    
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/profilephoto_round"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtprofileid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gokul_praveen"
+        android:layout_below="@+id/profilepic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/White"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/txtprofilenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9207096048"
+        android:layout_below="@+id/txtprofileid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/White"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

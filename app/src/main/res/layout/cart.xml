@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.Cart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <androidx.coordinatorlayout.widget.CoordinatorLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <com.google.android.material.appbar.AppBarLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="#b71c1c">
+
+
+         <androidx.appcompat.widget.Toolbar
+             android:id="@+id/carttoolbar"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@color/colorPrimary"
+             android:minHeight="?attr/actionBarSize"
+             android:theme="@style/ThemeOverlay.AppCompat.Dark"
+             app:layout_scrollFlags="enterAlways" />
+      </com.google.android.material.appbar.AppBarLayout>
+   </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+   <TextView
+   android:id="@+id/txtorderrestaurant"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:text="@string/ordering_from_restaurant"
+       android:textStyle="bold"
+       android:layout_marginTop="60dp"
+   android:textColor="@color/Black"
+   android:textSize="20sp"/>
+
+   <TextView
+       android:id="@+id/txtline"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/txtorderrestaurant"
+       android:text="@string/line"
+       android:layout_centerHorizontal="true"
+       android:textColor="@color/DarkGreen"
+       android:textStyle="bold"/>
+
+
+   <androidx.recyclerview.widget.RecyclerView
+   android:id="@+id/cartrecycler"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       android:layout_below="@+id/txtline"
+    android:scrollbars="vertical"/>
+
+   <Button
+       android:id="@+id/btnorderbutton"
+       android:layout_width="match_parent"
+       android:layout_height="55dp"
+      android:layout_alignParentBottom="true"
+       android:textColor="@color/Black"
+      android:textStyle="bold"
+       android:textSize="20sp"
+      android:background="#ffea00"/>
+
+
+   <ProgressBar
+      android:id="@+id/cartprogress"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:layout_centerInParent="true"/>
+</RelativeLayout>

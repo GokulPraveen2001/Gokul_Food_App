@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Home"
+    android:background="@color/Black">
+
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@mipmap/profilephoto_round"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtusersname"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/profilepic"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textColor="@color/Black"
+        android:background="@color/White"
+        android:drawableStart="@drawable/name"
+       android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txtusersmobilenumber"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/txtusersname"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/mobile_number_10_digits"
+android:textColor="@color/Black"
+        android:background="@color/White"
+        android:drawableStart="@drawable/mobilenumber"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txtusersemail"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtusersmobilenumber"
+        android:text="@string/email_address"
+        android:textColor="@color/Black"
+        android:background="@color/White"
+        android:drawableStart="@drawable/email"
+       android:textStyle="bold" />
+
+
+
+
+    <TextView
+        android:id="@+id/txtusersdeliveryaddress"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/txtusersemail"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/delivery_address"
+        android:textColor="@color/Black"
+        android:background="@color/White"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/address"
+        />
+
+</RelativeLayout>

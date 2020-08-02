@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/costsortascending"
+        android:title="@string/sort_by_cost_low_to_high"
+        android:icon="@drawable/whiterupees"
+        app:showAsAction="always"
+       />
+
+    <item
+         android:id="@+id/costsortdescending"
+        android:title="@string/sort_by_cost_high_to_low"
+        android:icon="@drawable/rupees"
+
+        />
+
+    <item
+         android:id="@+id/sortbyrating"
+        android:title="@string/sort_by_rating"
+        android:icon="@drawable/yellowrating"
+        app:showAsAction="always"
+        />
+
+</menu>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RestaurantFoodItems"
+    android:orientation="vertical">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#b71c1c">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/fooditemstoolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                app:layout_scrollFlags="enterAlways" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/Black"
+    android:text="@string/choose_from_the_menu_listed_below"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp"
+        android:drawableStart="@drawable/fooditems"
+        android:drawableEnd="@drawable/fooditems"/>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fooditemsrecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+            android:layout_marginTop="103dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/proceedtocheckout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+           android:id="@+id/btncheckout"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonshape"
+            android:text="@string/proceed_to_cart"
+            android:textSize="20sp"
+            android:drawableStart="@drawable/proceedtocart"
+            android:drawableEnd="@drawable/proceedtocart"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+
+        <ProgressBar
+            android:id="@+id/itemprogress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="340dp"
+            />
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>
