@@ -1,6 +1,6 @@
 # Food App
 
-## This Food App was created by me as a part of my internship project at Internshala.I have used Kotlin for backend app development and Xml for frontend app development.
+## This Food App was created by me as a part of my course project at Internshala.I have used Kotlin for backend app development and Xml for frontend app development.
 
 ## Here the app retrieves its information from a web database for the list of restaurants and the menu items.
 
