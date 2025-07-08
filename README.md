@@ -1,3 +1,5 @@
+NOTE : I have forked this repo from my earlier account(Goku-tech) as I lost my credentials in that account
+
 # Food App
 
 ## This Food App was created by me as a part of my course project at Internshala.I have used Kotlin for backend app development and Xml for frontend app development.
